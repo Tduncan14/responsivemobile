@@ -14,6 +14,14 @@ body{
    overflow:hidden;
 }
 
+.dark{
+    padding:15px;
+    background:#35424a;
+    margin-top:10px;
+    margin-bottom:10px;
+    color:white;
+}
+
 ul{
     margin:0;
     padding:0;
@@ -132,11 +140,30 @@ header a:hover{
     text-align:center;
     width:30%;
     padding:10px;
+    display:inline-block;
 }
 
 #boxes .box img{
     width:90px;
     height:auto;
+}
+
+.react{
+    margin-top: -24px;
+}
+
+ aside#sidebar{
+    float:right;
+    width:30%;
+    margin-top:10px;
+}
+
+/* main column */
+
+article#main-col{
+    float:left;
+    width:65%;
+    margin-top:10px;
 }
 
 footer{
