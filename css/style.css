@@ -158,6 +158,13 @@ header a:hover{
     margin-top:10px;
 }
 
+#sidebar2{
+    float:right;
+    width:30%;
+    margin-top: 18px;
+}
+
+
 /* main column */
 
 article#main-col{
@@ -165,6 +172,24 @@ article#main-col{
     width:65%;
     margin-top:10px;
 }
+
+/*services*/
+
+
+ul#service li{
+    list-style:none;
+    padding:20px;
+    border: #cccccc;
+    margin-bottom:5px;
+    background:#e6e6e6;
+}
+
+#main-col{
+    margin-top:-20px;
+}
+
+
+
 
 footer{
     padding:20px;
