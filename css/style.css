@@ -188,13 +188,50 @@ ul#service li{
     margin-top:-20px;
 }
 
-
-
-
 footer{
     padding:20px;
     margin-top:20px;
     color:white;
     background-color:#35424a;
     text-align:center;
+}
+
+/*media queries */
+
+@media(max-width:768px){
+    header #branding,
+    header nav,
+    header nav li,
+    #newsletter h1,
+    #newsletter form,
+    #boxes .box,
+    #boxes .box .react,
+    article#main-col,
+    aside#sidebar,
+    #sidebar2{
+        float:none;
+        text-align:center;
+        width:100%;
+    }
+    header{
+        padding-bottom:20px;
+    }
+
+#showcase h1{
+    margin-top:40px;
+}
+
+#newsletter button, .quote button, .quote textarea{
+    display:block;
+    width:100%;
+}
+
+#newsletter form input[type='email']{
+    width:100%;
+    margin-bottom:5px;
+}
+
+.button_1{
+    width:100%;
+}
 }
