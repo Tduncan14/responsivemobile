@@ -196,6 +196,13 @@ footer{
     text-align:center;
 }
 
+
+#aboutfoot{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+}
 /*media queries */
 
 @media(max-width:768px){
@@ -235,3 +242,4 @@ footer{
     width:100%;
 }
 }
+
